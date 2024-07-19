@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+}
+.withdrawForm {
+    box-sizing: border-box;
+    width: 40rem;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.952);
+    padding: 2rem;
+    border-radius: 10px 10px 0 0;
+}
+.withdrawH1 {
+    font-family: cursive;
+    font-size: 1.1rem;
+    color: darkblue;
+    text-align: center;
+}
+.withdrawLabel {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.withdrawAmount {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: blue;
+    margin-bottom: 1.9rem;
+    outline: none;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+.withdrawButton {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+}
+.withdrawButton:hover {
+    background-color:rgb(6, 6, 117);
+    color: white;
+}
+
+.withdrawNav {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.952);
+    z-index: 40;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+.withdrawNav ul li {
+    display: inline-block;
+    flex-wrap: row nowrap;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+.withdrawNav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkblue;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+.withdrawNav a:hover {
+    background-color: darkblue;
+    color: white;
+}
+.withdrawMsg-hidden {
+    display: none;
+}
+.withdrawMsg-display {
+    display: block;
+    box-sizing: border-box;
+    width: 40rem;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 2rem;
+
+}
+.withdrawCancelBtn {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: end;
+    font-size: 1.5rem;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.withdrawCancelBtn:hover {
+   font-size: 2rem;
+}
+.withdrawMsg {
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    border-radius: 10px;
+    background-color: green;
+    word-wrap: break-word;
+    white-space: normal;
+    box-sizing: border-box;
+    width: 90%;
+}
+@media only screen and (max-width:900px) {
+    .withdrawForm {
+        box-sizing: border-box;
+        width: 90%;
+        margin-top: 10rem;
+        margin-bottom: 0rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.952);
+        padding: 2rem;
+        border-radius: 10px 10px 0 0;
+    }
+    .withdrawH1 {
+        font-family: cursive;
+        font-size: 1.1rem;
+        color: darkblue;
+        text-align: center;
+    }
+    .withdrawLabel {
+        display: block;
+        margin-bottom: 0.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    .withdrawAmount {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: blue;
+        margin-bottom: 1.9rem;
+        outline: none;
+        text-align: center;
+        color: blue;
+        font-weight: bold;
+    }
+    .withdrawButton {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 10px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        cursor: pointer;
+        border: none;
+    }
+    .withdrawButton:hover {
+        background-color:rgb(6, 6, 117);
+        color: white;
+    }
+    
+    .withdrawNav {
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        width: 100%;
+        background-color:white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.952);
+        z-index: 40;
+        overflow: hidden;
+        display: flex;
+        justify-content: end;
+    }
+    .withdrawNav ul li {
+        display: inline-block;
+        flex-wrap: row nowrap;
+        margin-right: 1rem;
+        list-style-type: none;
+    }
+    .withdrawNav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: darkblue;
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 10px;
+    
+    }
+    .withdrawNav a:hover {
+        background-color: darkblue;
+        color: white;
+    }
+    .withdrawMsg-hidden {
+        display: none;
+    }
+    .withdrawMsg-display {
+        display: block;
+        box-sizing: border-box;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    
+    }
+    .withdrawCancelBtn {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: end;
+        font-size: 1.5rem;
+        border: none;
+        color: red;
+        cursor: pointer;
+        margin-bottom: 1rem;
+        background-color: white;
+    }
+    .withdrawCancelBtn:hover {
+       font-size: 2rem;
+    }
+    .withdrawMsg {
+        display: block;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        padding: 2rem 0;
+        border-radius: 10px;
+        background-color: green;
+        word-wrap: break-word;
+        white-space: normal;
+        box-sizing: border-box;
+        width: 90%;
+    }
+}

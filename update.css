@@ -1,0 +1,230 @@
+.updateBody {
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+}
+.updateNav {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 50;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
+    padding: 2rem;
+    display: flex;
+    justify-content: end;
+}
+.updateNav ul li {
+    display: inline-block;
+    flex-wrap: nowrap;
+    list-style-type:none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.updateNav li a {
+    color: darkblue;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.updateNav li a:hover {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.updateH1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: darkblue;
+}
+.updateForm {
+    box-sizing: border-box;
+    width: 40rem;
+    margin: 10rem auto 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
+    padding: 2rem;
+    border-radius: 10px 10px 0 0;
+}
+.usernameLabel, .emailLabel, .passwordLabel {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: cursive;
+    color: darkblue;
+}
+.updateUserName, .updateEmailAddress, .updatePassword {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border:1px solid blue;
+    outline: none;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+.updateBtn {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: darkblue;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.updateBtn:hover {
+    background-color: blue;
+}
+.updateContainer {
+    display: none;
+   
+}
+.updateContainer-display {
+    display: block;
+    width: 40rem;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.cancelMsgBtn {
+    box-sizing: border-box;
+    width:100%;
+    text-align: end;
+    font-size: 1.5rem;
+    color: red;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.cancelMsgBtn:hover {
+    font-size: 1.8rem;
+}
+.updateMsg {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    font-size: 1rem;
+    padding: 2rem;
+    border-radius: 10px 60px 30px 120px;
+    color: white;
+}
+@media only screen and (max-width:900px) {
+    .updateNav {
+        top: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        z-index: 50;
+        background-color: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
+        padding: 2rem;
+        display: flex;
+        justify-content: end;
+    }
+    .updateNav ul li {
+        display: inline-block;
+        flex-wrap: nowrap;
+        list-style-type:none;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    .updateNav li a {
+        color: darkblue;
+        text-decoration: none;
+        margin-right: 2rem;
+    }
+    .updateNav li a:hover {
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+    .updateH1 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: cursive;
+        color: darkblue;
+    }
+    .updateForm {
+        box-sizing: border-box;
+        width: 90%;
+        margin: 10rem auto 0 auto;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
+        padding: 2rem;
+        border-radius: 10px 10px 0 0;
+    }
+    .usernameLabel, .emailLabel, .passwordLabel {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-family: cursive;
+        color: darkblue;
+    }
+    .updateUserName, .updateEmailAddress, .updatePassword {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        border:1px solid blue;
+        outline: none;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .updateBtn {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        background-color: darkblue;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .updateBtn:hover {
+        background-color: blue;
+    }
+    .updateContainer {
+        display: none;
+    }
+    .updateContainer-display {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        background-color: white;
+    
+    }
+    .cancelMsgBtn {
+        box-sizing: border-box;
+        width:100%;
+        text-align: end;
+        font-size: 1.5rem;
+        color: red;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+    .cancelMsgBtn:hover {
+        font-size: 1.8rem;
+    }
+    .updateMsg {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: green;
+        font-size: 1rem;
+        padding: 2rem;
+        border-radius: 10px 60px 30px 120px;
+        color: white;
+    }
+}

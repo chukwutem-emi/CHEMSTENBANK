@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Chukwutem Emi">
+    <meta name="Description" content="This all about user profile updating page">
+    <link rel="stylesheet" href="./update.css" type="text/css">
+    <title>update profile</title>
+</head>
+<body class="updateBody">
+    <nav class="updateNav">
+        <ul>
+            <li><a href="./index.html" target="_blank" title="Back to home page">Home</a></li>
+            <li><a href="./transaction.html" target="_blank" title="Back to transaction page">Transaction</a></li>
+        </ul>
+    </nav>
+    <main class="updateMain">
+        <form class="updateForm">
+            <h1 class="updateH1">Update your profile</h1>
+            <label for="updateUserName" class="usernameLabel">Username<strong>:</strong> </label>
+            <input type="text" class="updateUserName" id="updateUserName" name="username" required autocomplete="on" placeholder="Your new username">
+            <label for="updateEmailAddress" class="emailLabel">Email Address<strong>:</strong></label>
+            <input type="email" class="updateEmailAddress" id="updateEmailAddress" name="email_address" required autocomplete="on" placeholder="Your new email address">
+            <label for="updatePassword" class="passwordLabel">Password<strong>:</strong></label>
+            <input type="password" class="updatePassword" id="updatePassword" name="password" required placeholder="Your new password">
+            <button type="submit" class="updateBtn">Submit</button>
+        </form>
+    </main>
+    <div class="updateContainer">
+        <button type="button" class="cancelMsgBtn" title="Cancel">&times;</button>
+        <section class="updateMsg"></section>
+    </div>
+    <script src="./update.js"></script>
+</body>
+</html>

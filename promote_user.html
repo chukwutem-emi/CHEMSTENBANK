@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./promote_user.css">
+    <title>Admin user</title>
+</head>
+<body class="adminBody">
+    <nav class="adminNav">
+        <ul>
+            <li><a href="./index.html" target="_blank" title="Back to home page">Home</a></li>
+            <li><a href="./transaction.html" target="_blank" title="Back to transaction page">Transaction</a></li>
+        </ul>
+    </nav>
+    <main class="adminMain">
+        <h1 class="adminH1">Promote user</h1>
+        <form class="adminForm">
+            <label for="adminUserNameLb" class="adminLb">Admin Username<strong>:</strong></label>
+            <input type="text" class="adminUserName" id="adminUserNameLb" name="username" autocomplete="on" placeholder="Username" required>
+            <label for="adminEmailAddressLb" class="adminLb">Admin Email<strong>:</strong></label>
+            <input type="email" class="adminEmailAddress" id="adminEmailAddressLb" name="email_address" placeholder="Email address" autocomplete="on" required>
+            <label for="adminPasswordLb" class="adminLb">Admin Password<strong>:</strong></label>
+            <input type="password" class="adminPassword" id="adminPasswordLb" name="password" placeholder="Password" required>
+            <button type="submit" class="adminBtn">Submit</button>
+        </form>
+    </main>
+    <div class="responseMsg-container">
+        <button type="button" class="cancelResponseMsg" title="Cancel">&times;</button>
+        <p class="responseMsg"></p>
+    </div>
+    <script src="./promote_user.js"></script>
+</body>
+</html>

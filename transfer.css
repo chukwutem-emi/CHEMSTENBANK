@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    background-color:white;
+    height: 100vh;
+}
+.transferForm {
+    box-sizing: border-box;
+    width: 40rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.904);
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    padding: 2rem;
+    margin: 10rem auto 0 auto;
+}
+.transferH1 {
+    font-family: cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    color:darkgreen;
+    
+}
+.transferLabel, .transferAccountLabel {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: darkgreen;
+}
+.transferAccountNumber, .transferAmount {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1.9rem;
+    outline: none;
+    text-align: center;
+    color: darkgreen;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.904);
+
+}
+.transferBtn {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.transferBtn:hover {
+    background-color:green;
+    color: white;
+}
+.transferNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 0;
+    z-index: 40;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 50%;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.904);
+    justify-content: flex-end;
+}
+.transferNav ul li  {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transferNav ul li a {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: darkgreen;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.transferNav ul li a:hover {
+    text-decoration: underline;
+    font-size:1.2rem;
+    color: blue;
+}
+.transferDiv {
+    width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.transferCancelBtn {
+    display: none;
+}
+.transferCancelBtn:hover {
+    color: brown;
+}
+.transferCancelBtn-display {
+    display: block;
+    font-size: 1.7rem;
+    border: none;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+}
+.transferMsg {
+    display: none;
+}
+.transferMsg-display {
+    display: block;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+}
+@media only screen and (max-width:900px) {
+    .transferForm {
+        box-sizing: border-box;
+        width: 90%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.904);
+        margin: 0 auto;
+        border-radius: 10px 10px 0 0;
+        padding: 2rem;
+        margin: 10rem auto 0 auto;
+    }
+    .transferH1 {
+        font-family: cursive;
+        font-size: 1.3rem;
+        text-align: center;
+        color:darkgreen;
+        
+    }
+    .transferLabel, .transferAccountLabel {
+        display: block;
+        margin-bottom: 0.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        color: darkgreen;
+    }
+    .transferAccountNumber, .transferAmount {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 1.9rem;
+        outline: none;
+        text-align: center;
+        color: darkgreen;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.904);
+    
+    }
+    .transferBtn {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0.7rem;
+        border-radius: 8px;
+        border: none;
+        background-color: darkgreen;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    .transferBtn:hover {
+        background-color:green;
+        color: white;
+    }
+    .transferNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem 0;
+        z-index: 40;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-basis: 50%;
+        background-color: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.904);
+        justify-content: flex-end;
+    }
+    .transferNav ul li  {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .transferNav ul li a {
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: darkgreen;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    .transferNav ul li a:hover {
+        text-decoration: underline;
+        font-size:1.2rem;
+        color: blue;
+    }
+    .transferDiv {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+    .transferCancelBtn {
+        display: none;
+    }
+    .transferCancelBtn:hover {
+        color: brown;
+    }
+    .transferCancelBtn-display {
+        display: block;
+        font-size: 1.7rem;
+        border: none;
+        color: red;
+        cursor: pointer;
+        background-color: white;
+    }
+    .transferMsg {
+        display: none;
+    }
+    .transferMsg-display {
+        display: block;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: green;
+        padding: 1rem;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+}

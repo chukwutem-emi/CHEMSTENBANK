@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Chukwutem Emi">
+        <meta name="Description" content="This all about Login form">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Login_form.css" type="text/css">
+        <title>Login Form</title>
+    </head>
+    <body class="loginBd">
+        <nav class="loginNav">
+            <ul>
+                <li><a href="index.html" title="Back to Home page" target="_blank">Home</a></li>
+                <li><a href="transaction.html" target="_blank" title="Back to Transaction page">Transaction</a></li>
+            </ul>
+        </nav>
+        <main class="loginMn">
+            <form id="loginFm" class="loginFm">
+                <h1 class="loginH1">Login</h1>
+                <label for="email" class="loginLb">Email address<strong>:</strong></label>
+                <input type="email" class="loginEd" id="email" name="email_address" placeholder="Your email_address" autocomplete="on" required>
+                <label for="password" class="loginLb">Enter your password<strong>:</strong></label>
+                <input type="password" class="loginPw" id="password" name="password" placeholder="Your password" required>
+                <button type="submit" title="Click here to Login" class="loginBtn">Login</button>
+            </form>
+        </main>
+        <div class="loginErrorMsg-container">
+            <button class="cancelLoginMsg" title="cancel">&times;</button>
+            <p class="loginErrorMsg"></p>
+        </div>
+        <script src="./login.js"></script>
+    </body>
+</html>

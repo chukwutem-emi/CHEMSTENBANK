@@ -1,0 +1,283 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    background-color:white;
+    overflow-x: hidden;
+}
+label {
+    display: block;
+    padding-bottom: 0.3rem;
+    color: darkblue;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    
+}
+fieldset {
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border-width: 2px;
+    border-color: darkblue;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+legend {
+    font-size: 1.3rem;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    background-color:darkblue;
+    padding: 0.8rem;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+.btn:hover {
+    background-color:blue;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding-left: 8rem;
+    padding-right: 6rem;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: darkblue;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background-color: white;
+    height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.664);
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type:none;
+    width: 100%;
+    padding: 0px 2px;
+}
+ul li {
+    background-color: darkblue;
+    margin-right: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.msg-hidden {
+    display: block;
+    padding: 1.5rem;
+    color: white;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: green;
+    text-align: center; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+.rmMsg {
+    display: none;  
+}
+.dpMsg {
+    display: block;
+    border: none;
+    width: 40%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+.bts {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: end;
+    font-size: 1.5rem;
+    color:  red;
+    border: none;
+    cursor: pointer;
+    background-color: white;   
+}
+.bts:hover {
+    font-size: 1.7rem;
+}
+
+#sign-up-form{
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.925);
+}
+@media only screen and (max-width:900px) {
+    #sign-up-form{
+        width: 90%;
+    }
+    label {
+        display: block;
+        padding-bottom: 0.3rem;
+        color:darkblue;
+        font-size: 1.3rem;
+        font-family: cursive;
+    }
+    input {
+        display: block;
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        border-color: blue;
+        border-style: solid;
+        border-width: 1px;
+        padding: 1rem;
+        box-sizing: border-box;
+        outline: none;
+        text-align: center;
+        
+    }
+    
+    fieldset {
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: darkblue;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    legend {
+        font-size: 1rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .btn {
+        background-color:darkblue;
+        padding: 1rem;
+        border-radius: 6px;
+        color: white;
+        border: none;
+        width: 100%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-bottom: 1rem;
+    }
+    .btn:hover {
+        background-color: blue;
+        color: white;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        box-sizing: border-box;
+        text-align: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: darkblue;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        align-items: center;
+        list-style-type:none;
+        width: 100%;
+        padding: 0px 2px;
+    }
+    ul li {
+        background-color: darkblue;
+        margin-right: 1rem;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .msg-hidden {
+        display: block;
+        background-color: green;
+        padding: 2rem;
+        color: white;
+        font-size: 1.3rem;
+        font-family:Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+        word-wrap: break-word;
+        white-space: normal; 
+    }
+    .rmMsg {
+        display:none;
+    }
+    .dpMsg {
+        display: block;
+        border: none;
+        width: 90%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.664);
+        border-radius: 10px;
+    }
+    
+    .bts {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: end;
+        font-size: 1.7rem;
+        color:  red;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+        
+    }
+    .bts:hover {
+        font-size: 2rem;
+    }
+    
+}

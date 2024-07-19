@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="Author" content="Chukwutem Emi">
+    <meta name="Description" content="This is all about Bank transfer">
+    <link rel="stylesheet" href="transfer.css" type="text/css">
+    <title>Transfer</title>
+</head>
+<body>
+    <nav class="transferNav">
+        <ul>
+            <li><a href="index.html" target="_blank" title="Back to home page">Home</a></li>
+            <li><a href="transaction.html" target="_blank" title="Back to transaction page">Transaction</a></li>
+        </ul>
+    </nav>
+    <main class="transferMain">
+        <form class="transferForm">
+            <h1 class="transferH1">Money-Transfer Form</h1>
+            <label for="account_number" class="transferAccountLabel">Recipient Account number<strong>:</strong></label>
+            <input type="text" class="transferAccountNumber" id="account_number" name="account_number" pattern="\d{10}" title="please enter a 10 10-digit account number" required placeholder="Recipient-Account-number" autocomplete="on">
+            <label for="amount" class="transferLabel">Amount <strong>:</strong></label>
+            <input type="number" class="transferAmount" id="amount" name="amount" min="100" step="100.00" placeholder="0.00" required title="click the spinner arrow to select amount (up for increment and down for decrement) and you can also type it" autofocus autocomplete="on">
+            <button type="submit" class="transferBtn">Submit</button>
+        </form>
+    </main>
+    <div class="transferDiv">
+        <p class="transferMsg"></p>
+        <button class="transferCancelBtn" title="cancel">&times;</button>
+    </div>
+    <script src="./transfer.js"></script>
+</body>
+</html>
+    
+    
+    
+    

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:darkblue;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom-color: #f25e70;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.89);
+    z-index: 40;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color:whitesmoke;
+    margin-left: 1.5rem;
+    margin-top: 0;
+}
+strong {
+    color: #f25e70;
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+ nav ul {
+    display: flex;
+    justify-content:right;
+    flex-basis: 25%;
+    width: 100%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+li a {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+}
+li a:hover {
+    background-color:#4d020b;
+    color: black;
+}
+li a:visited {
+    color: white;
+}
+@media only screen and (max-width:900px) {
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color:darkblue;
+        box-sizing: border-box;
+        width: 100%;
+        border-bottom-color: #f25e70;
+        border-bottom-style: solid;
+        border-bottom-width: 0.5rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.89);
+        z-index: 40;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color:whitesmoke;
+        margin-left: 1.5rem;
+        margin-top: 0;
+    }
+    strong {
+        color: #f25e70;
+        font-family: "Playwrite NL", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 2rem;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+     nav ul {
+        display: flex;
+        justify-content:right;
+        flex-basis: 25%;
+        width: 100%;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    li a {
+        margin-right: 0.1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.7rem;
+        border: none;
+        text-decoration: none;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    li a:hover {
+        background-color:#4d020b;
+        color: black;
+    }
+    li a:visited {
+        color: white;
+    }
+}

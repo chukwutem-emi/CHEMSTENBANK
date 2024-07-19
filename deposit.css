@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    background-color:white;
+}
+.depositNav {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color:white;
+    padding: 0.5rem;
+    z-index: 40;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+    display: flex;
+    justify-content: end;
+}
+.depositNav ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+.depositNav ul li a {
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.depositNav a:hover {
+    background-color: darkblue;
+    color: white;
+}
+.depositForm {
+    box-sizing: border-box;
+    width: 40rem;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+}
+.depositAmountLabel {
+    display: block;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin-bottom: 0.5rem;
+}
+.depositAmount {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: blue;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+}
+.depositH1 {
+    font-family:cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    color: darkblue; 
+}
+.depositBtn {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.depositBtn:hover {
+    background-color:darkgreen;
+}
+.depositMsg-container {
+    display: none;
+}
+.depositMsgCon-display {
+    display: block;
+    box-sizing: border-box;
+    width: 40rem;
+    margin: 0 auto;
+}
+.depositMsgCancel {
+    margin-top: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: end;
+    font-size: 1.5rem;
+    color: red;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.depositMsgCancel:hover {
+    font-size: 1.8rem;
+}
+.depositMsg {
+    display: block;
+    background-color: green;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0;
+    color: white;
+    border-radius: 0.6rem;
+    text-align: center;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media only screen and (max-width:900px) {
+    .depositForm {
+        box-sizing: border-box;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+    }
+    .depositNav {
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background-color:white;
+        padding: 0.5rem;
+        z-index: 40;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .depositNav ul li {
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .depositNav ul li a {
+        text-decoration: none;
+        margin-right: 1rem;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        padding: 0.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .depositNav a:hover {
+        background-color: darkblue;
+        color: white;
+    }
+    .depositAmountLabel {
+        display: block;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkblue;
+        margin-bottom: 0.5rem;
+    }
+    .depositAmount {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        outline: none;
+        border: none;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        background-color: white;
+        color: blue;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+    }
+    .depositH1 {
+        font-family:cursive;
+        text-align: center;
+        font-size: 1.5rem;
+        color: darkblue; 
+    }
+    .depositBtn {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        background-color:green;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .depositBtn:hover {
+        background-color:darkgreen;
+    }
+    .depositMsg-container {
+        display: none;
+    }
+    .depositMsgCon-display {
+        display: block;
+        box-sizing: border-box;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .depositMsgCancel {
+        margin-top: 2rem;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: end;
+        font-size: 1.5rem;
+        color: red;
+        cursor: pointer;
+        border: none;
+        background-color: white;
+    }
+    .depositMsgCancel:hover {
+        font-size: 1.8rem;
+    }
+    .depositMsg {
+        display: block;
+        background-color: green;
+        box-sizing: border-box;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2rem 0;
+        color: white;
+        border-radius: 0.6rem;
+        text-align: center;
+        font-size: 1.3rem;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+}

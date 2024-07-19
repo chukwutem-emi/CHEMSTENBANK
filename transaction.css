@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: blueviolet;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-width: 0.5rem;
+    border-bottom-color:aquamarine;
+    border-bottom-style: solid;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: yellow;
+    font-style: italic;
+    margin-left: 2rem;
+}
+nav ul {
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: right;
+    flex-basis: 30%;
+    list-style-type: none;
+}
+li a {
+    margin-right: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+a:hover {
+    background-color: black;
+    color: yellow;
+}

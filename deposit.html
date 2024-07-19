@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Chukwutem Emi">
+    <meta name="Description" content="This is all about bank deposit page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="deposit.css" type="text/css">
+    <title>Deposit</title>
+</head>
+<body>
+    <nav class="depositNav">
+        <ul>
+            <li><a href="index.html" target="_blank" title="Back to home page">Home</a></li>
+            <li><a href="transaction.html" target="_blank" title="Back to transaction page">Transaction</a></li>
+        </ul>
+    </nav>
+    <main class="depositMain">
+        <form class="depositForm" id="depositForm">
+            <h1 class="depositH1">Money-Deposit Form</h1>
+            <label for="amount" class="depositAmountLabel">Amount:</label>
+            <input type="number" class="depositAmount" id="amount" name="amount" min="100" step="100.00" placeholder="0.00" title="click the spinner arrow to select amount(up for increment, down for decrement)" autofocus>
+            <button type="submit" class="depositBtn">Submit</button>
+        </form>
+    </main>
+    <div class="depositMsg-container">
+        <button class="depositMsgCancel" title="cancel">&times;</button>
+        <p class="depositMsg">iiiybuyfvyrxrsrdfg</p>
+    </div>
+    <script src="./deposit.js"></script>
+</body>
+</html>
