@@ -36,8 +36,8 @@ function handleSignUp(event) {
         dpMsgEl.classList.add("dpMsg");
         messageDisplayEl.style.background = "green";
         console.log(message);
-        button.innerHTML = "submit";
         button.style.cursor = "pointer";
+        button.innerHTML = "submit";
         window.scrollTo(0, document.body.scrollHeight);
         setTimeout(() => {
             window.location.href = "Login_form.html";

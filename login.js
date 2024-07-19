@@ -42,7 +42,7 @@ function handleLogin(event) {
                 window.location.href = "user_profile.html";
             }, 5000);
         } else {
-            alert("An error occurred!.Have you signed-up?, if not sign-up now to get access. And If you have signed-up and this error still occurs, that means there is an error in your username or password");
+            alert("An error occurred!.Have you signed-up?, if not sign-up now to get access. And If you have signed-up and this error still occurs, that means there is an error in your email address or password");
             errorMsgEl.innerHTML = `login failed: "${loginResponseData.message}"`;
             errorMsgEl.style.background = "red";
             window.scrollTo(0, document.body.scrollHeight);
