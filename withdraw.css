@@ -68,8 +68,7 @@ body {
     background-color:white;
     padding: 2rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.952);
-    z-index: 40;
-    overflow: hidden;
+    z-index: 20;
     display: flex;
     justify-content: end;
 }
@@ -81,16 +80,12 @@ body {
 }
 .withdrawNav ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     color: darkblue;
     cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 10px;
-
 }
 .withdrawNav a:hover {
-    background-color: darkblue;
-    color: white;
+    text-decoration: underline;
 }
 .withdrawMsg-hidden {
     display: none;
@@ -199,8 +194,7 @@ body {
         width: 100%;
         background-color:white;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.952);
-        z-index: 40;
-        overflow: hidden;
+        z-index: 20;
         display: flex;
         justify-content: end;
     }
@@ -212,16 +206,12 @@ body {
     }
     .withdrawNav ul li a {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 1rem;
         color: darkblue;
         cursor: pointer;
-        padding: 0.5rem;
-        border-radius: 10px;
-    
     }
     .withdrawNav a:hover {
-        background-color: darkblue;
-        color: white;
+        text-decoration: underline;
     }
     .withdrawMsg-hidden {
         display: none;
