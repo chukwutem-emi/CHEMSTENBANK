@@ -14,8 +14,8 @@ nav {
     border-bottom-color: #f25e70;
     border-bottom-style: solid;
     border-bottom-width: 0.5rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.89);
-    z-index: 40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.89);
+    z-index: 20;
 }
 
 h1 {
@@ -76,8 +76,8 @@ li a:visited {
         border-bottom-color: #f25e70;
         border-bottom-style: solid;
         border-bottom-width: 0.5rem;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.89);
-        z-index: 40;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.89);
+        z-index: 20;
     }
     
     h1 {

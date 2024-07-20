@@ -8,11 +8,11 @@ function handleSignUp(event) {
     const userNameEl = formEl.querySelector(".username").value;
     const emailAddressEl = formEl.querySelector(".email-address").value;
     const passwordEl = formEl.querySelector(".password").value;
-    const messageDisplayEl = formEl.querySelector(".msg-hidden")
     const button = formEl.querySelector(".btn");
     button.innerHTML = "Processing.......";
     button.style.cursor = "progress";
     const dpMsgEl = document.querySelector(".rmMsg");
+    const messageDisplayEl = document.querySelector(".msg-hidden")
 
         
     const data = {
@@ -33,12 +33,13 @@ function handleSignUp(event) {
     }).then((responseData) => {
         const message = responseData.message;
         messageDisplayEl.innerHTML = message;
-        dpMsgEl.classList.add("dpMsg");
         messageDisplayEl.style.background = "green";
+        alert("Account created successfully!");
+        dpMsgEl.classList.add("dpMsg");
+        window.scrollTo(0, document.body.scrollHeight);
         console.log(message);
         button.style.cursor = "pointer";
         button.innerHTML = "submit";
-        window.scrollTo(0, document.body.scrollHeight);
         setTimeout(() => {
             window.location.href = "Login_form.html";
         }, 4000);

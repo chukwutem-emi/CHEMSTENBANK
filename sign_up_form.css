@@ -1,10 +1,7 @@
-html{
-    overflow-x: hidden;
-}
 body {
     margin: 0;
     background-color:white;
-    overflow-x: hidden;
+    height: 100vh;
 }
 label {
     display: block;
@@ -75,7 +72,7 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 40;
+    z-index: 20;
     background-color: white;
     height: fit-content;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.664);

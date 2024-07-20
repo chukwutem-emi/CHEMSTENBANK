@@ -8,9 +8,9 @@
     right: 0;
     left: 0;
     position: fixed;
-    z-index: 40;
+    z-index: 20;
     padding: 2rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.986);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.986);
     display: flex;
     justify-content: end;
     background-color: white;
@@ -27,7 +27,7 @@
     cursor: pointer;
 }
 .profileNav li a:hover {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: underline;
 }
 .profileMain {
@@ -105,9 +105,9 @@
         right: 0;
         left: 0;
         position: fixed;
-        z-index: 40;
+        z-index: 20;
         padding: 2rem;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.986);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.986);
         display: flex;
         justify-content: end;
         background-color: white;
@@ -124,7 +124,7 @@
         cursor: pointer;
     }
     .profileNav li a:hover {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-decoration: underline;
     }
     .profileMain {

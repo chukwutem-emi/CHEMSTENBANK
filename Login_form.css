@@ -56,15 +56,15 @@
 }
 .loginNav {
     width: 100%;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    z-index: 40;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
     height: fit-content;
     position: fixed;
     display: flex;
     justify-content: end;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.849);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
     padding: 1rem;
     background-color:white;
 }
@@ -173,15 +173,15 @@
     }
     .loginNav {
         width: 100%;
-        top: 0px;
-        right: 0px;
-        left: 0px;
-        z-index: 40;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
         height: fit-content;
         position: fixed;
         display: flex;
         justify-content: end;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.849);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
         padding: 1rem;
         background-color:white;
     }

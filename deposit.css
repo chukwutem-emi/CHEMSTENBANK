@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color:white;
+    height: 100vh;
 }
 .depositNav {
     top: 0;
@@ -9,8 +10,8 @@ body {
     position: fixed;
     background-color:white;
     padding: 0.5rem;
-    z-index: 40;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+    z-index: 20;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
     display: flex;
     justify-content: end;
 }
@@ -34,7 +35,6 @@ body {
     color: white;
 }
 .depositForm {
-    box-sizing: border-box;
     width: 40rem;
     margin-top: 7rem;
     margin-left: auto;
@@ -68,7 +68,7 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
 }
 .depositH1 {
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.5rem;
     color: darkblue; 
@@ -129,9 +129,13 @@ body {
 
 @media only screen and (max-width:900px) {
     .depositForm {
-        box-sizing: border-box;
         width: 90%;
-        border-radius: 8px;
+        margin-top: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 8px 8px 0 0;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
     }
     .depositNav {
@@ -141,8 +145,8 @@ body {
         position: fixed;
         background-color:white;
         padding: 0.5rem;
-        z-index: 40;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
+        z-index: 20;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.877);
         display: flex;
         justify-content: end;
         width: 100%;
@@ -190,7 +194,7 @@ body {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.877);
     }
     .depositH1 {
-        font-family:cursive;
+        font-family:Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 1.5rem;
         color: darkblue; 
