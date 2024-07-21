@@ -19,9 +19,10 @@
 .adminNav ul li {
     list-style-type: none;
     display: inline-block;
-    font-size: 1.2rem;
 }
 .adminNav li a {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
     margin-right: 2rem;
     color: darkblue;
     text-decoration: none;
@@ -133,9 +134,10 @@
     .adminNav ul li {
         list-style-type: none;
         display: inline-block;
-        font-size: 1.2rem;
     }
     .adminNav li a {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
         margin-right: 2rem;
         color: darkblue;
         text-decoration: none;

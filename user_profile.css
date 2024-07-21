@@ -18,9 +18,10 @@
 .profileNav ul li {
     list-style-type: none;
     display: inline-block;
-    font-size: 1.3rem;
 }
 .profileNav li a {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-right: 2rem;
     color: darkblue;
@@ -115,9 +116,10 @@
     .profileNav ul li {
         list-style-type: none;
         display: inline-block;
-        font-size: 1.3rem;
     }
     .profileNav li a {
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         margin-right: 2rem;
         color: darkblue;

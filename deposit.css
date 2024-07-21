@@ -23,13 +23,13 @@ body {
 .depositNav ul li a {
     text-decoration: none;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
     cursor: pointer;
 }
 .depositNav a:hover {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: underline;
 }
 .depositForm {
@@ -157,13 +157,13 @@ body {
     .depositNav ul li a {
         text-decoration: none;
         margin-right: 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: Arial, Helvetica, sans-serif;
         color: blue;
         cursor: pointer;
     }
     .depositNav a:hover {
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-decoration: underline;
     }
     .depositAmountLabel {

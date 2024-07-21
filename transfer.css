@@ -80,16 +80,14 @@ body {
 }
 .transferNav ul li a {
     padding: 0.5rem;
-    font-size: 1rem;
-    color: darkgreen;
+    font-size: 1.2rem;
     cursor: pointer;
     text-decoration: none;
-    
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .transferNav ul li a:hover {
     text-decoration: underline;
-    font-size:1rem;
-    color: blue;
 }
 .transferDiv {
     width: 40rem;
@@ -207,16 +205,14 @@ body {
     }
     .transferNav ul li a {
         padding: 0.5rem;
-        font-size: 1rem;
-        color: darkgreen;
+        font-size: 1.2rem;
+        color: blue;
         cursor: pointer;
         text-decoration: none;
-        
+        font-family: Arial, Helvetica, sans-serif; 
     }
     .transferNav ul li a:hover {
         text-decoration: underline;
-        font-size:1rem;
-        color: blue;
     }
     .transferDiv {
         width: 90%;
