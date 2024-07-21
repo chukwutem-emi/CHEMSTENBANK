@@ -76,16 +76,14 @@
 .loginNav ul li a {
     text-decoration: none;
     margin-right: 2rem;
-    background-color: blue;
     padding: 0.5rem;
-    color: white;
-    font-size: 18px;
+    color: blue;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
     cursor: pointer;
 }
 .loginNav a:hover {
-    background-color: rgba(0, 10, 68, 0.849);
+    text-decoration: underline;
 }
 .loginErrorMsg {
     display: none;
@@ -193,16 +191,14 @@
     .loginNav ul li a {
         text-decoration: none;
         margin-right: 2rem;
-        background-color: blue;
         padding: 0.5rem;
-        color: white;
-        font-size: 18px;
+        color: blue;
+        font-size: 1.1rem;
         font-family: Arial, Helvetica, sans-serif;
-        border-radius: 10px;
         cursor: pointer;
     }
     .loginNav a:hover {
-        background-color: rgba(0, 10, 68, 0.849);
+        text-decoration: underline;
     }
     .loginErrorMsg {
         display: none;
