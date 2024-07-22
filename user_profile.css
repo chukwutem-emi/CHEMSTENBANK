@@ -20,7 +20,7 @@
     display: inline-block;
 }
 .profileNav li a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-right: 2rem;
@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 .profileNav li a:hover {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: underline;
 }
 .profileMain {
@@ -118,7 +118,7 @@
         display: inline-block;
     }
     .profileNav li a {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         margin-right: 2rem;
@@ -126,7 +126,7 @@
         cursor: pointer;
     }
     .profileNav li a:hover {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-decoration: underline;
     }
     .profileMain {
