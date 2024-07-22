@@ -124,7 +124,7 @@
     .loginFm {
         box-sizing: border-box;
         width: 90%;
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
         padding: 2rem;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.986);
     }
