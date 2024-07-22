@@ -38,7 +38,7 @@ function handleUserProfile(event) {
         localStorage.setItem("data", JSON.stringify(messageEl));
         console.log(messageEl);
         const getUserLocalStorage = JSON.parse(localStorage.getItem("data"));
-        profileMsgEl.innerHTML = `USERNAME: ${getUserLocalStorage.username},<br> EMAIL ADDRESS: ${getUserLocalStorage.email_address},<br> PUBLIC ID: ${getUserLocalStorage.public_id},<br> ACCOUNT NUMBER: ${getUserLocalStorage.account_number},<br> ACCOUNT BALANCE: ${getUserLocalStorage.account_balance},<br> CREATED AT: ${getUserLocalStorage.created_at},<br> ADMIN: ${getUserLocalStorage.Admin} =>(1 is true & 0 is false)`;
+        profileMsgEl.innerHTML = `USERNAME: ${getUserLocalStorage.username},<br> EMAIL ADDRESS: ${getUserLocalStorage.email_address},<br> PUBLIC ID: ${getUserLocalStorage.public_id},<br> ACCOUNT NUMBER: ${getUserLocalStorage.account_number},<br> ACCOUNT BALANCE: ${getUserLocalStorage.account_balance},<br> CREATED AT: ${getUserLocalStorage.created_at},<br> ADMIN: ${getUserLocalStorage.Admin}`;
         profileMsgEl.style.background = "";
         profileMsgConEl.classList.add("profile-display");
         userProfileEl.innerHTML = "successful!";
